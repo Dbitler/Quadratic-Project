@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB66212A29808AB000A3F5E9 /* NewQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB66212929808AB000A3F5E9 /* NewQuadratic.swift */; };
+		AB66212B29808AB000A3F5E9 /* NewQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB66212929808AB000A3F5E9 /* NewQuadratic.swift */; };
+		AB66212C29808AB000A3F5E9 /* NewQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB66212929808AB000A3F5E9 /* NewQuadratic.swift */; };
 		ABE80EB1297B440D00077986 /* Quadratic_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80EB0297B440D00077986 /* Quadratic_ProjectApp.swift */; };
 		ABE80EB3297B440D00077986 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80EB2297B440D00077986 /* ContentView.swift */; };
 		ABE80EB5297B440E00077986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE80EB4297B440E00077986 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 		ABE80EC3297B440E00077986 /* Quadratic_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80EC2297B440E00077986 /* Quadratic_ProjectTests.swift */; };
 		ABE80ECD297B440E00077986 /* Quadratic_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80ECC297B440E00077986 /* Quadratic_ProjectUITests.swift */; };
 		ABE80ECF297B440E00077986 /* Quadratic_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80ECE297B440E00077986 /* Quadratic_ProjectUITestsLaunchTests.swift */; };
+		ABE80EDC297B4AB400077986 /* ClassicQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80EDB297B4AB400077986 /* ClassicQuadratic.swift */; };
+		ABE80EDD297B4AB400077986 /* ClassicQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80EDB297B4AB400077986 /* ClassicQuadratic.swift */; };
+		ABE80EDE297B4AB400077986 /* ClassicQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE80EDB297B4AB400077986 /* ClassicQuadratic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB66212929808AB000A3F5E9 /* NewQuadratic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuadratic.swift; sourceTree = "<group>"; };
 		ABE80EAD297B440D00077986 /* Quadratic Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quadratic Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE80EB0297B440D00077986 /* Quadratic_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_ProjectApp.swift; sourceTree = "<group>"; };
 		ABE80EB2297B440D00077986 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,7 @@
 		ABE80EC8297B440E00077986 /* Quadratic ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadratic ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE80ECC297B440E00077986 /* Quadratic_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_ProjectUITests.swift; sourceTree = "<group>"; };
 		ABE80ECE297B440E00077986 /* Quadratic_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABE80EDB297B4AB400077986 /* ClassicQuadratic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicQuadratic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,8 @@
 		ABE80EA4297B440D00077986 = {
 			isa = PBXGroup;
 			children = (
+				AB66212929808AB000A3F5E9 /* NewQuadratic.swift */,
+				ABE80EDB297B4AB400077986 /* ClassicQuadratic.swift */,
 				ABE80EAF297B440D00077986 /* Quadratic Project */,
 				ABE80EC1297B440E00077986 /* Quadratic ProjectTests */,
 				ABE80ECB297B440E00077986 /* Quadratic ProjectUITests */,
@@ -259,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE80EDC297B4AB400077986 /* ClassicQuadratic.swift in Sources */,
+				AB66212A29808AB000A3F5E9 /* NewQuadratic.swift in Sources */,
 				ABE80EB3297B440D00077986 /* ContentView.swift in Sources */,
 				ABE80EB1297B440D00077986 /* Quadratic_ProjectApp.swift in Sources */,
 			);
@@ -268,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB66212B29808AB000A3F5E9 /* NewQuadratic.swift in Sources */,
 				ABE80EC3297B440E00077986 /* Quadratic_ProjectTests.swift in Sources */,
+				ABE80EDD297B4AB400077986 /* ClassicQuadratic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE80EDE297B4AB400077986 /* ClassicQuadratic.swift in Sources */,
+				AB66212C29808AB000A3F5E9 /* NewQuadratic.swift in Sources */,
 				ABE80ECD297B440E00077986 /* Quadratic_ProjectUITests.swift in Sources */,
 				ABE80ECF297B440E00077986 /* Quadratic_ProjectUITestsLaunchTests.swift in Sources */,
 			);
