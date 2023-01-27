@@ -14,8 +14,21 @@ class NewQuadratic: NSObject {
     var variableC = "0.0"
     var solutionstring :(String, Double, Double, Double, Double) = ("", 0.0, 0.0, 0.0, 0.0)
     var discriminant = 0.0
-    var i = 0.0
+    var solvedDisc = 0.0
+    var errormargin = 0.0
+ 
     
+    /// Description
+    ///
+    ///
+    ///Takes the new quadratic formula provided in the Landau text, and multiplies it by the conjugate, to put the imaginary in the numerator, if there are two complex roots.
+    ///
+    ///If sqrtDisc is imaginary:
+    ///
+    ///   -2c                      b -/+ sqrtdisc        2c (b -/+ sqrtdisc)
+    ///----------------    * -------------------- = -----------------------
+    ///b +/- sqrtDisc          b -/+ sqrt disc        b^2 + sqrtDisc   -> since sqrtDisc is imaginary (e.g. isqrt(3)), squaring it would result in -sqrtDisc^2, such that b^2 - i^2 * sqrtDisc^2 = b^2 + sqrtDisc^2
+    ///
     func calculateTypeofSolutions()  {
         var a = Double(variableA)!
         var b = Double(variableB)!
@@ -51,7 +64,13 @@ class NewQuadratic: NSObject {
         default:
             return solutionstring.0 = "ERROR"
         }
-        
+        if solutionstring.0 == "Two Complex Roots"{
+            solvedDisc = -((1 / solutionstring.1) * (-2 * c * b) - (b * b))
+        }
+        else {
+            solvedDisc = -((solutionstring.1 * (2 * a)) + b) * (-((solutionstring.1 * (2 * a)) + b))
+        }
+        errormargin = discriminant - solvedDisc
     
     }
     }
